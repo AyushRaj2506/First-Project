@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+header{
+    display: flex;
+    height: 10vh;
+    background-color: black;
+    color: aqua;
+    justify-content: center;
+    align-items: center;
+    font-family: "Exile", system-ui;
+    font-size: xx-large;
+}
+
+ul{
+    list-style-type: none;
+}
+
+li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Handlee", cursive;
+    height: 5vh;
+}
+
+.gameContainer{
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    height: 85vh;
+}
+
+.container {
+    display: grid;
+    height: 40vh;
+    width: 40vh;
+    margin-top: 5vh;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+}
+
+.gameInfo{
+    margin: 5vh;
+}
+
+.box{
+    display: flex;
+    background-color:beige;
+    justify-content: center;
+    align-items: center;
+    border: solid black;
+    font-size: 10vh;
+}
+
+button{
+    height: 5vh;
+    width: 10vh;
+    border: solid black;
+    background-color:beige;
+}
+
+button:hover{
+    background-color: black;
+    color:beige;
+    cursor: pointer;
+}
+
+.box:hover{
+    background-color: aquamarine;
+    cursor: pointer;
+}
+
+.bb{
+    border-bottom: 0;
+}
+
+.bt{
+    border-top: 0;
+}
+
+.br{
+    border-right: 0;
+}
+
+.bl{
+    border-left: 0;
+}
+
+.info{
+    margin-right: 1.5vh;
+}
